@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)http://127.0.0.1:5500/html%20forms/website/index.html -->
+<html lang="en" <head=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>project1</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a herf="#home">Home</a></li>
+                <li><a herf="#about">About</a></li>
+                <li><a herf="#projects">Projects</a></li>
+                <li><a herf="Contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1></h1>
+    <section id="About">
+        <h2>
+            <center>About me</center>
+        </h2>
+        <center><img src="file:///C:/Users/HP/OneDrive/Pictures/Saved%20Pictures/WhatsApp%20Image%202023-11-01%20at%2017.51.53_cf481a44.jpg" height="300px" width="300px" alt=""></center>
+        <p> Iam Anudeepthi,a strong problem-solving ability,
+            I specialize in web development using html,css,and basics of php,
+            utilizing fremeworks such as Bootstrap,Tailwind css,and wordpress.I have collabrated on the mind &amp; soul
+            website for a startup along with
+            multiple IoT and ML projects.My protfolio showcases my expertise in delivering
+            innovative solutions of high quality.
+
+            An inquisitive and driven individual who thrives on learning and exploring
+            new technologies.With a strong desire to solve problems,I constantly seek
+            innovative solutions using the latest tools and techniques.
+
+            I specialize in web development using HTML,CSS,and basics of PHP,
+            utilizing frameworks such as Bootstrap,Tailwind css,and wordpress.
+            I have collabrated on the mind &amp; soul website for a startup,along with
+            multiple IoT and ML projects.
+
+            An inquistive and driven individual who thrives on learning and exploring
+            new technologies.with a strong desire to solve problems,I constantly seek
+            innovaive solutions using the latest tools and techniques.
+        </p>
+    </section>
+    <hr>
+    <section id="Contact">
+        <h2>
+            <center>contact</center>
+        </h2>
+        <h3>submit form</h3>
+        <form action="http://127.0.0.1:5500/html%20forms/website/index.html"></form>
+        <label for="Fname">First name:</label><br>
+        <input type="text" id="Fname" name="Fname"><br>
+        <label for="Lname">Last name:</label><br>
+        <input type="text" id="Lname" name="Lname"><br>
+        <label for="Email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="number">contact:</label><br>
+        <input type="text" id="number" name="number"><br>
+        <label for="city">city"</label><br>
+        <input type="text" id="city" name="city"><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="clear">
+
+    </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
